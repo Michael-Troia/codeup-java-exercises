@@ -18,8 +18,6 @@ public class HelloWorld {
 //
 //        //constants, final
 //            final int SIDES_OF_A_DICE = 6;
-//            final String API_KEY = "b75b703d8195f6f433ca";
-//            final String GITHUB_API_BASE_URL = "https://api.github.com";
 //            //final acts just like const in js
 //        //casting - going from one data type to another
 //            //implicit - less precise to more precise (widening)
