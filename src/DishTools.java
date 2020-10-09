@@ -1,18 +1,18 @@
-public class DishTools (Dish asdf){
+public class DishTools {
     public static final int average = 13000;
     public static void shoutDishName(Dish asdf) {
-        System.out.println(asdf.name.toUpperCase);
+        System.out.println(asdf.nameOfDish.toUpperCase());
     }
     public static void analyzeDishCost(Dish asdf) {
-        if (asdf.cost > DishTools.average){
+        if (asdf.costInCents > DishTools.average){
             System.out.println("more than average cost");
-        } else if (asdf.cost = DishTools.average) {
+        } else if (asdf.costInCents == DishTools.average) {
             System.out.println("average cost");
         } else {
             System.out.println("more than average cost");
         }
     }
-    public static void flipRecommended(Dish asdf){
-        return !asdf.wouldRecommend;
+    public static boolean flipRecommended(Dish asdf){
+        return asdf.wouldRecommend;
     }
 }
