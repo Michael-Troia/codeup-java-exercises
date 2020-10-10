@@ -4,7 +4,7 @@ public class Person {
     public Person (String name){
         this.name = name;
     }
-    public Person () { this.name = "help me";}
+
     public String getName(){
         return this.name;
     }
